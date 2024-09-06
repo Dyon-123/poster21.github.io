@@ -1,1 +1,32 @@
-...
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afbeelding Plaatsen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Afbeelding op de Website</h1>
+        <!-- Plaats hier de afbeelding -->
+        <img src="https://www.google.com/imgres?q=anonymous&imgurl=https%3A%2F%2Fwww.ukcybersecurity.co.uk%2Fwp-content%2Fuploads%2FDepositphotos_63221229_XL.jpg&imgrefurl=https%3A%2F%2Fwww.ukcybersecurity.co.uk%2Fblog%2Fnews-advice%2Fwhat-is-anonymous-and-what-do-they-do-unveiling-the-enigma-of-cyber-activism%2F&docid=D-FIUaYl5w0HmM&tbnid=0vFHAElPBcbYeM&vet=12ahUKEwj--r6zi66IAxXHgP0HHZyzDxIQM3oECH4QAA..i&w=1920&h=1275&hcb=2&ved=2ahUKEwj--r6zi66IAxXHgP0HHZyzDxIQM3oECH4QAA" alt="Beschrijving van de afbeelding">
+        <p>Dit is een voorbeeld van hoe je een afbeelding kunt toevoegen aan je website.</p>
+    </div>
+</body>
+</html>
+
