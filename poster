@@ -23,9 +23,7 @@
 <body>
     <div class="container">
         <h1>Afbeelding op de Website</h1>
-        <!-- Plaats hier de afbeelding -->
         <img src="jouw-afbeelding.jpg" alt="Beschrijving van de afbeelding">
-        <p>Dit is een voorbeeld van hoe je een afbeelding kunt toevoegen aan je website.</p>
     </div>
 </body>
 </html>
