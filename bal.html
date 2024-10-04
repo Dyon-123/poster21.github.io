@@ -3,58 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kleurige Ballen</title>
+    <title>Mijn Website</title>
     <style>
         body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
             margin: 0;
+            padding: 0;
         }
-
-        .wrapper {
+        header {
             display: flex;
-            flex-wrap: wrap;
-            width: 300px;
-            height: 300px;
-            justify-content: space-around;
-            align-content: space-around;
-            border: 2px solid #333;
-            border-radius: 10px;
-            padding: 10px;
-            background-color: #fff;
+            align-items: center;
+            position: relative;
+            height: 60px; /* Pas de hoogte aan naar wens */
         }
-
-        .ball {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
+        .menu-bg {
+            background-image: url('menu-bg.jpg'); /* Zorg ervoor dat dit bestand aanwezig is */
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
         }
-
-        .ball1 { background-color: red; }
-        .ball2 { background-color: blue; }
-        .ball3 { background-color: green; }
-        .ball4 { background-color: yellow; }
-        .ball5 { background-color: orange; }
-        .ball6 { background-color: purple; }
-        .ball7 { background-color: pink; }
-        .ball8 { background-color: cyan; }
+        nav {
+            margin-left: auto;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .logo {
+            height: 50px; /* Pas de hoogte aan naar wens */
+            margin-right: 20px;
+        }
     </style>
 </head>
 <body>
 
-<div class="wrapper">
-    <div class="ball ball1"></div>
-    <div class="ball ball2"></div>
-    <div class="ball ball3"></div>
-    <div class="ball ball4"></div>
-    <div class="ball ball5"></div>
-    <div class="ball ball6"></div>
-    <div class="ball ball7"></div>
-    <div class="ball ball8"></div>
-</div>
+<header>
+    <img src="logo.jpg" alt="Logo" class="logo"> <!-- Zorg ervoor dat dit bestand aanwezig is -->
+    <div class="menu-bg"></div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#over">Over</a>
+        <a href="#diensten">Diensten</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <h1>Welkom op mijn website!</h1>
+    <p>Dit is een voorbeeld van een eenvoudige website met een menubalk.</p>
+</main>
 
 </body>
 </html>
